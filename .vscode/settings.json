@@ -1,0 +1,18 @@
+{
+    "workbench.editorAssociations": {
+        "*.parquet": "duckdb.dataFileViewer",
+        "*.csv": "duckdb.dataFileViewer",
+        "*.tsv": "duckdb.dataFileViewer",
+        "*.xlsx": "duckdb.dataFileViewer",
+        "*.duckdb": "duckdb.tableViewer"
+    },
+    "duckdb.databases": [
+        {
+            "alias": "finops",
+            "type": "file",
+            "path": "/home/nithish2003/projects/finops-platform/database/db/finops.duckdb",
+            "attached": true
+        }
+    ],
+    "duckdb.defaultDatabase": "finops"
+}
